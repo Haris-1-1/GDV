@@ -1,7 +1,7 @@
 import pandas as pd
 from ydata_profiling import ProfileReport
 
-df = pd.read_csv('data/StudentPerformanceFactors.csv')
+df = pd.read_csv('Data-Visualization/data/StudentPerformanceFactors.csv')
 df = df.replace('', pd.NA).dropna()
 
 print(f"Rows after cleaning: {len(df)}")
