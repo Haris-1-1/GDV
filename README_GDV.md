@@ -10,29 +10,29 @@ I worked with a synthetic student performance dataset from Kaggle and built thre
 
 ```
 .
-├── Data-Vizualization/
+├── Data-Visualization/
 │   ├── data/
 │   │   ├── StudentPerformanceFactors.csv        # raw data, downloaded from Kaggle
-│   │   └── data_cleaned.csv                     # cleaned data, produced by the exploration notebook
+│   │   └── data_cleaned.csv                     # cleaned data, produced by the 
 │   └── Notebooks/
 │       ├── Exploration/
-│       │   ├── 01_exploration mainy.ipynb       # data cleaning, basic stats, correlation analysis
+│       │   ├── 01_exploration mainy.ipynb       # data cleaning, basic stats, 
 │       │   ├── eda_report.html                  # auto-generated EDA report
 │       │   └── eda_report.py                    # script that produces the EDA report
 │       ├── Pre-Evaluation/
-│       │   └── 02_visualizations pre.ipynb      # the three charts BEFORE user feedback
+│       │   └── 02_visualizations pre.ipynb      # the three charts BEFORE user 
 │       └── Evaluation/
-│           └── 02_visualizations_improved_3.ipynb   # the same three charts AFTER user feedback
+│           └── 02_visualizations_improved_3.ipynb   # the same three charts AFTER 
 ├── Survey-Evaluation/
 │   ├── README.md                                # explains the evaluation setup
 │   ├── task_description.md                      # tasks shown to the participants
-│   ├── survey_form.md                           # the form used during the think-aloud sessions
+│   ├── survey_form.md                           # the form used during the 
 │   ├── P1_notes.md                              # notes from participant 1
 │   ├── P2_notes.md                              # notes from participant 2
 │   ├── P3_notes.md                              # notes from participant 3
 │   └── P4_notes.md                              # notes from participant 4
 ├── GDV-Final.pdf                                # the final written report
-├── final pitch.pdf                              # the slides used for the 5-minute pitch
+├── final pitch.pdf                              # the slides used for the 5-minute 
 ├── LICENSE
 └── README GDV.md                                # this file
 ```
