@@ -12,20 +12,7 @@ The three charts evaluated were:
 
 ## Method
 
-A small Think-Aloud study with **4 participants**. Each participant was shown the three charts one by one and asked to narrate out loud what they noticed, what was clear, and what was confusing. The moderator took written notes during each session and did not interrupt unless a question was directly asked.
-
-The study was intentionally small and formative. The goal was to surface interpretation problems and improvement ideas before submission, not to produce statistical results.
-
-## Procedure
-
-For each participant:
-
-1. Brief introduction: the project topic (factors influencing student exam performance) and a short explanation of how Think-Aloud works.
-2. For each of the three charts:
-   - Show the chart on screen.
-   - Ask the participant to look at it and start saying out loud what they see.
-   - Then ask the three per-chart questions from the survey form.
-3. At the end, ask the two closing questions about which chart was easiest and which was most difficult.
+The evaluation used a structured qualitative interview. Each participant was shown the three charts one by one and answered a fixed set of open questions about what the chart shows, what is unclear, and what they would change. 
 
 Each session took roughly 15 minutes.
 
@@ -40,16 +27,15 @@ Four participants took part. They covered a small range of visualization literac
 | P3 | Family member |
 | P4 | Friend |
 
-Real names are not used in the notes below.
+Real names are not used.
 
 ## Setup
 
 - Charts were shown as static images on a laptop screen.
 - Sessions were conducted in person.
-- Notes were written by hand during each session and typed up immediately afterwards.
+- Notes were made during each session and typed up immediately afterwards.
 
 ## Outputs
 
-- `survey_form.md`: the questions used during the sessions.
 - `P1_notes.md` to `P4_notes.md`: anonymised notes per participant.
 - The synthesis of these notes and the design changes that followed are documented in Sections 4 and 5 of the project report.

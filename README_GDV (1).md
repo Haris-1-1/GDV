@@ -2,9 +2,9 @@
 
 This is my project for the GDV module (Fundamentals of Data Visualization, FS26).
 
-**Research question:** Which factors have the greatest influence on student exam performance?
+**Research question:** Which factors actually matters in student exam performance?
 
-I worked with a synthetic student performance dataset from Kaggle and built three visualizations covering different angles of the question: learning habits, social and family factors, and personal motivation. Each chart exists in two versions, one as I first designed it and one after revising it based on user feedback from a Think-Aloud evaluation with four participants. The full design rationale and the reasoning behind every change are in `GDV-Final.pdf`.
+I worked with a synthetic student performance dataset from Kaggle and built three visualizations covering different angles of the question: learning habits, social and family factors, and personal motivation. Each chart exists in two versions, one as I first designed it and one after revising it based on user feedback from a Think-Aloud evaluation with four participants. The full design rationale and the reasoning behind every change are in `GDV-Report.pdf`.
 
 ## Repository structure
 
@@ -12,8 +12,8 @@ I worked with a synthetic student performance dataset from Kaggle and built thre
 .
 ├── Data-Visualization/
 │   ├── data/
-│   │   ├── StudentPerformanceFactors.csv        # raw data, downloaded from Kaggle
-│   │   └── data_cleaned.csv                     # cleaned data, produced by the 
+│   │   ├── data_cleaned.csv        # cleaned data, produced by the
+│   │   └── StudentPerformanceFactors.csv                     # raw data, downloaded from Kaggle 
 │   └── Notebooks/
 │       ├── Exploration/
 │       │   ├── 01_exploration mainy.ipynb       # data cleaning, basic stats, 
@@ -31,13 +31,11 @@ I worked with a synthetic student performance dataset from Kaggle and built thre
 │   ├── P2_notes.md                              # notes from participant 2
 │   ├── P3_notes.md                              # notes from participant 3
 │   └── P4_notes.md                              # notes from participant 4
-├── GDV-Final.pdf                                # the final written report
-├── final pitch.pdf                              # the slides used for the 5-minute 
+├── final pitch.pdf                              # the slides used for the 5-minutethe
+├── GDV-Report.pdf                               # the final written report 
 ├── LICENSE
 └── README GDV.md                                # this file
 ```
-
-> Note: the folder name is `Data-Vizualization` (missing an "s", typo on my side).
 
 ## How to run the code
 
@@ -72,7 +70,6 @@ Source: https://www.kaggle.com/datasets/lainguyn123/student-performance-factors
 The `Survey-Evaluation/` folder contains everything needed to reproduce the user evaluation:
 
 - `task_description.md`: the tasks each participant was asked to complete while looking at the three charts.
-- `survey_form.md`: the questions and the rating scale used during the think-aloud sessions.
 - `P1_notes.md` to `P4_notes.md`: anonymised notes taken during each session. Names are removed, only the role of the participant is kept (two fellow students, one family member, one friend).
 - `README.md`: short summary of how the evaluation was run and how the notes are structured.
 
@@ -92,5 +89,5 @@ The `Survey-Evaluation/` folder contains everything needed to reproduce the user
 
 ---
 
-*Project for the Fundamentals of Data Visualization (GDV) module, Spring Semester 2026.*
+*Project for the Fundamentals of Data Visualization (GDV) module, FS Semester 2026.*
 *Author: Haris Salii*
